@@ -6,6 +6,8 @@ This presentation should take 30-45 minutes to work through depending on how muc
 
 I'm happy to take pull requests with changes to the content but reserve the right to reject them if they include details or takes on things that don't reflect my own opinions.  However, feel free to fork and modify as appropriate.  I'll always take PRs that add to this README to pointers to derived versions.
 
+This has only been tested on Google Chrome.  Some of the slides make use of the relatively new flexbox layout model.
+
 The diagrams have been created using Adobe Illustrator.  I know that not everyone has access to this program and so I apologize for that.  I tried to make it work with graphviz and failed.  I ran out of time to figure out anything else.
 
 The presentation itself is released under a Creative Commons Attribution license.  It includes images and typefaces that have their own licenses.  See [LICENSE.md](LICENSE.md) for more details.
