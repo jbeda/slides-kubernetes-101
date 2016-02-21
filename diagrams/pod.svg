@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 934.77 426.16">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #f2f2f2;
+        stroke-miterlimit: 10;
+        stroke-width: 1.42px;
+      }
+
+      .b {
+        font-size: 45.35px;
+        font-family: Coda;
+      }
+
+      .b, .c {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <title>pod</title>
+  <rect class="a" x="0.71" y="0.71" width="933.35" height="424.75"/>
+  <text class="b" transform="translate(427.61 64.16)">P<tspan x="27.46" y="0">od</tspan></text>
+  <g>
+    <g>
+      <text class="b" transform="translate(642.38 142.54)">Data L<tspan x="126.52" y="0">o</tspan><tspan x="152.16" y="0">a</tspan><tspan x="176.74" y="0">d</tspan><tspan x="202.52" y="0">er</tspan></text>
+      <rect class="a" x="626.32" y="93.89" width="275.49" height="68.92"/>
+    </g>
+    <g>
+      <text class="b" transform="translate(325.58 142.54)">Serving App</text>
+      <rect class="a" x="307.8" y="93.89" width="278.93" height="68.92"/>
+    </g>
+    <g>
+      <text class="b" transform="translate(51.63 142.54)">Log S<tspan x="110.55" y="0">a</tspan><tspan x="134.84" y="0">v</tspan><tspan x="157.03" y="0">er</tspan></text>
+      <rect class="a" x="32.95" y="93.89" width="235.26" height="68.92"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <ellipse class="a" cx="305.01" cy="290.16" rx="81.28" ry="23.65"/>
+      <path class="a" d="M402.65,544c0,13.06-36.39,23.65-81.28,23.65S240.09,557,240.09,544" transform="translate(-16.35 -172.08)"/>
+      <line class="a" x1="223.73" y1="371.88" x2="223.73" y2="290.16"/>
+      <line class="a" x1="386.29" y1="371.88" x2="386.29" y2="290.16"/>
+    </g>
+    <text class="b" transform="translate(256.53 363.77)">Logs</text>
+  </g>
+  <g>
+    <text class="b" transform="translate(508.96 363.77)">App Data</text>
+    <g>
+      <ellipse class="a" cx="601.26" cy="290.16" rx="109.35" ry="23.65"/>
+      <path class="a" d="M727,544c0,13.06-49,23.65-109.35,23.65S508.27,557,508.27,544" transform="translate(-16.35 -172.08)"/>
+      <line class="a" x1="491.91" y1="371.88" x2="491.91" y2="290.16"/>
+      <line class="a" x1="710.62" y1="371.88" x2="710.62" y2="290.16"/>
+    </g>
+  </g>
+  <g>
+    <line class="a" x1="150.58" y1="162.81" x2="236.46" y2="250.04"/>
+    <path class="c" d="M249.24,418.5l2.92-11.59,0.41,0.09,7,16.51L269,438.59l-14.94-9.72-16.4-7.23-0.12-.37Z" transform="translate(-16.35 -172.08)"/>
+  </g>
+  <g>
+    <line class="a" x1="447.27" y1="162.81" x2="368.43" y2="249.42"/>
+    <path class="c" d="M388.21,417.74L399.95,420l-0.06.41-16.1,7.86-14.55,10.29,8.88-15.45,6.32-16.77,0.36-.14Z" transform="translate(-16.35 -172.08)"/>
+  </g>
+  <g>
+    <line class="a" x1="447.27" y1="162.81" x2="530.27" y2="252.77"/>
+    <path class="c" d="M543.17,421.12l3.29-11.49,0.41,0.1,6.43,16.73,9,15.39-14.62-10.2-16.15-7.75-0.11-.37Z" transform="translate(-16.35 -172.08)"/>
+  </g>
+  <g>
+    <line class="a" x1="764.07" y1="162.81" x2="674.74" y2="253.54"/>
+    <path class="c" d="M694.66,422l11.64,2.74-0.08.41-16.4,7.23-14.94,9.72L684.36,427l7-16.51,0.37-.13Z" transform="translate(-16.35 -172.08)"/>
+  </g>
+</svg>

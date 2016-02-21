@@ -1,0 +1,21 @@
+digraph G {
+  stylesheet = "graphviz.css"
+  fontname="Lora" 
+  bgcolor=none
+  fontcolor=white
+  color=white;
+  node [fontname="Lora" shape="box" style="solid" color="white" fontcolor=white]
+  edge [color=white]
+
+  subgraph cluster {
+    label=Pod
+    c1 [label=<Serving App>]
+    c2 [label=<Data Loader>]
+    c3 [label=<Log Saver>]
+    v1 [label=<App Data> shape=ellipse]
+    v2 [label=<Logs> shape=ellipse]
+    c1 -> {v1, v2}
+    c2 -> v1
+    c3 -> v2
+  }
+}

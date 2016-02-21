@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1434.92 743.4">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #f2f2f2;
+        stroke-miterlimit: 10;
+        stroke-width: 1.42px;
+      }
+
+      .b, .c {
+        fill: #f2f2f2;
+      }
+
+      .c {
+        font-size: 45.35px;
+        font-family: Coda;
+      }
+    </style>
+  </defs>
+  <title>cluster</title>
+  <g>
+    <line class="a" x1="816.04" y1="585.65" x2="650.31" y2="416.47"/>
+    <path class="b" d="M675.92,549.73L673,561.31l-0.41-.09-6.93-16.53-9.45-15.11,14.92,9.75,16.38,7.27L687.6,547Z" transform="translate(-22.05 -129.63)"/>
+  </g>
+  <g>
+    <line class="a" x1="816.04" y1="146.93" x2="650.38" y2="314.6"/>
+    <path class="b" d="M676,440.61l11.63,2.76-0.08.41L671.14,451l-15,9.69,9.51-15.07,7-16.5,0.37-.13Z" transform="translate(-22.05 -129.63)"/>
+  </g>
+  <g>
+    <line class="a" x1="1141.77" y1="365.5" x2="657.24" y2="365.5"/>
+    <path class="b" d="M684.38,495.13l6.21,10.21-0.35.23L673.59,499l-17.41-3.83,17.41-3.83,16.65-6.61,0.35,0.17Z" transform="translate(-22.05 -129.63)"/>
+  </g>
+  <g>
+    <rect class="a" x="0.71" y="186.67" width="670.57" height="430.79"/>
+    <text class="c" transform="translate(265.61 250.12)">Master</text>
+    <g>
+      <g>
+        <text class="c" transform="translate(77.48 332.93)">Cont<tspan x="96.47" y="0">r</tspan><tspan x="111.95" y="0">ollers</tspan></text>
+        <rect class="a" x="52.1" y="284.28" width="275.49" height="68.92"/>
+      </g>
+      <g>
+        <text class="c" transform="translate(87.37 426.45) scale(0.99 1)">Scheduler</text>
+        <rect class="a" x="52.1" y="377.8" width="275.49" height="68.92"/>
+      </g>
+    </g>
+    <g>
+      <text class="c" transform="translate(412.15 379.69)">API Ser<tspan x="145.67" y="0">v</tspan><tspan x="167.86" y="0">er</tspan></text>
+      <rect class="a" x="398.88" y="331.04" width="235.26" height="68.92"/>
+    </g>
+    <g>
+      <g>
+        <ellipse class="a" cx="516.51" cy="476.12" rx="81.28" ry="23.65"/>
+        <path class="a" d="M619.84,687.47c0,13.06-36.39,23.65-81.28,23.65s-81.28-10.59-81.28-23.65" transform="translate(-22.05 -129.63)"/>
+        <line class="a" x1="435.23" y1="557.84" x2="435.23" y2="476.12"/>
+        <line class="a" x1="597.79" y1="557.84" x2="597.79" y2="476.12"/>
+      </g>
+      <text class="c" transform="translate(471.41 549.73)">et<tspan x="40.24" y="0">c</tspan><tspan x="64.07" y="0">d</tspan></text>
+    </g>
+    <g>
+      <line class="a" x1="516.51" y1="400.62" x2="516.51" y2="429.36"/>
+      <path class="b" d="M538.56,553.9l10.21-6.21L549,548l-6.61,16.65-3.83,17.41-3.83-17.41L528.11,548l0.17-.35Z" transform="translate(-22.05 -129.63)"/>
+    </g>
+    <g>
+      <line class="a" x1="327.6" y1="318.74" x2="376.11" y2="327.11"/>
+      <path class="b" d="M393.14,455.87l-4.38-11.12,0.38-.17,15.29,9.35,16.5,6.73-17.8.81-17.54,3.69-0.31-.23Z" transform="translate(-22.05 -129.63)"/>
+    </g>
+    <g>
+      <line class="a" x1="327.6" y1="412.26" x2="376.11" y2="403.89"/>
+      <path class="b" d="M393.14,534.38l-7.86-9,0.3-.29,17.54,3.69,17.8,0.81-16.5,6.73-15.29,9.35-0.37-.11Z" transform="translate(-22.05 -129.63)"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <text class="c" transform="translate(889.83 585.65)">Doc<tspan x="81.27" y="0">k</tspan><tspan x="104.55" y="0">er</tspan></text>
+      <rect class="a" x="844.91" y="537" width="235.26" height="68.92"/>
+    </g>
+    <rect class="a" x="817.04" y="450.24" width="292.44" height="292.44"/>
+    <text class="c" transform="translate(909.07 504.54)">No<tspan x="57.65" y="0">d</tspan><tspan x="83.42" y="0">e</tspan></text>
+    <g>
+      <text class="c" transform="translate(885.1 685.65)">K<tspan x="27.04" y="0">ubelet</tspan></text>
+      <rect class="a" x="845.39" y="637" width="235.26" height="68.92"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <text class="c" transform="translate(1214.56 354.69)">Doc<tspan x="81.27" y="0">k</tspan><tspan x="104.55" y="0">er</tspan></text>
+      <rect class="a" x="1169.64" y="306.04" width="235.26" height="68.92"/>
+    </g>
+    <rect class="a" x="1141.77" y="219.28" width="292.44" height="292.44"/>
+    <text class="c" transform="translate(1233.8 273.57)">No<tspan x="57.65" y="0">d</tspan><tspan x="83.42" y="0">e</tspan></text>
+    <g>
+      <text class="c" transform="translate(1209.83 454.69)">K<tspan x="27.04" y="0">ubelet</tspan></text>
+      <rect class="a" x="1170.12" y="406.04" width="235.26" height="68.92"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <text class="c" transform="translate(888.83 136.11)">Doc<tspan x="81.27" y="0">k</tspan><tspan x="104.55" y="0">er</tspan></text>
+      <rect class="a" x="843.91" y="87.47" width="235.26" height="68.92"/>
+    </g>
+    <rect class="a" x="816.04" y="0.71" width="292.44" height="292.44"/>
+    <text class="c" transform="translate(908.07 55)">No<tspan x="57.65" y="0">d</tspan><tspan x="83.42" y="0">e</tspan></text>
+    <g>
+      <text class="c" transform="translate(884.1 236.11)">K<tspan x="27.04" y="0">ubelet</tspan></text>
+      <rect class="a" x="844.39" y="187.47" width="235.26" height="68.92"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <style>
+      body { 
+        font-family: 'Lora'; 
+      }
+      h1, h2, h3 {
+        font-family: 'Coda';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }
+
+      .remark-slide-content {
+        color: white;
+        padding: 0;
+        isolation: isolate;
+      }
+
+      .remark-slide-content > * {
+        background-color: rgba(0,0,0,0.6);
+        padding: 0rem 4rem 0rem 4rem;
+      }
+      .remark-slide-content > video.vbg {
+        background-color: transparent;
+        padding: 0rem;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1
+      }
+      .remark-slide-content > .cblock {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+      .remark-slide-content > .image-credit {
+        position: absolute;
+        font-size: 10px;
+        bottom: 0;
+        left: 0;
+        padding: 3px 10px 3px 10px;
+        color: #777;
+        font-family: 'Lora';
+        background: transparent;
+        z-index: 2;
+      }
+      .remark-slide-content a, 
+      .remark-slide-content a:hover, 
+      .remark-slide-content a:visited {
+        color: inherit;
+      }
+
+      .remark-slide-number {
+        width: 100%;
+        opacity: 1.0;
+        bottom: 0;
+        right: 0;
+        font-size: 10px;        
+        color: #777;
+        font-family: 'Lora';
+        padding: 3px 10px 3px 10px;
+        text-align: right;
+        box-sizing: border-box;
+      }
+
+      .remark-notes {
+        font-size: 1.2em;
+      }
+
+      /* ------------------- */
+
+      .column-slide {
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        height: 100%;
+      }
+
+      .remark-slide-content > h1 {
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        margin: 0 0 5px 0;
+      }
+
+
+      .column-slide > .image-credit {
+        position: initial;
+        bottom: initial;
+        left: initial;
+        background-color: rgba(0,0,0,0.6);
+        z-index: initial;
+        width: 100%;
+        margin: 5px 0 0 0;
+      }
+
+      .column-container {
+        background-color: transparent;
+        padding: 0;
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        flex-grow: 1;
+      }
+
+      .left-column {
+        background-color: rgba(0,0,0,0.6);
+        width: 30%;
+        align-self: stretch;
+        padding: 10px 10px 10px 20px;
+        margin-left: 1%;
+        box-sizing: border-box;
+      }
+
+      .right-column {
+        align-self: center;
+        background-color: rgba(0,0,0,0.6);
+        padding: 10px;
+        width: 65%;
+        margin-left: 2%;
+        margin-right: 2%;
+        box-sizing: border-box;
+      }
+
+
+      .column-container h1 { font-size: 2em; }
+      .column-container h2 { font-size: 1.6em; }
+      .column-container h3 { font-size: 1em; }
+
+      .column-slide .remark-slide-number {
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+layout: true
+background-image: url(img/k8s-sticker.jpg)
+background-size: cover
+background-position: 50% 25%
+image-credit: Photo "k8s Sticker" shared by Joe Beda under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/4.0/)
+
+---
+class: middle, center
+
+# Kubernetes 101
+
+.cblock[
+Joe Beda  
+Entrepreneur in Residence, Accel Partners
+]
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+
+class: column-slide
+background-image: url(img/record.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Recap
+## Containers
+]
+.right-column[
+.center[
+# "It's the next big thing!"
+]
+]
+]
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+
+class: column-slide
+background-image: url(img/record.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Recap
+## Linux Kernel Features
+
+]
+.right-column[
+cgroups:
+
+* Resource limiting, tracking, prioritization, and isolation
+* CPU, RAM, IO, Networking, etc.
+* Developed by Google for over ~10 years
+* "nice++"
+
+namespaces:
+
+* Resource visibility and naming isolation
+* network, PID, users, mounts
+* "chroot++"
+
+cgroups + namespaces = "lightweight virtualization"
+]
+]
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(img/record.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Recap
+## User Experience
+
+]
+.right-column[
+Containers == Docker?
+
+* *Image format:* Upload, download, share, build
+* *API:* Automatable create, delete, start, stop
+* *Networking*: Good defaults
+]
+]
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(img/record.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Recap
+## Excitement
+
+]
+.right-column[
+Users benefits:
+
+1. Packaging, deployment and reuse
+2. Efficiency and overcommit
+3. Security*
+
+This list is in order
+
+\* Big caveats here currently
+]
+]
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(img/record.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Recap
+## Gaps
+
+]
+.right-column[
+Dev &rarr; Production
+
+* Multi-machine
+* Discovery and Naming
+* Scaling
+* Multiple users
+* Failure tolerance and recovery
+* Monitoring
+* Logging
+* High availability
+* Deployment lifecycle
+* Load balancing
+* etc, etc
+
+]
+]
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(img/record.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mavadam/3241311268 "Turntable") shared by [VanDammeMaarten](https://flickr.com/people/mavadam) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Recap
+## Micro-services?
+
+]
+.right-column[
+
+ * Split your application into small services that can be reused, remixed and shared.
+ * Enables smaller, nimble, decoupled teams and processes.
+ * Better tooling enables and encourages microservices.
+
+Not what I'm talking about today.
+
+]
+]
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/ship-wheel.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Kubernetes
+## Defined
+
+]
+.right-column[
+
+
+Kubernetes is ancient Greek for "Helmsman".  Root of the word "Governor", "Cybernetics".
+
+Kubernetes is a "Container Orchestrator" or "Cluster Manager".  
+
+* Places containers on nodes
+* Recovers automatically from failure
+* Basic monitoring, logging, health checking
+* Enables containers to find each other.
+
+
+Key component in *logical infrastructure*
+
+]]
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/ship-wheel.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Kubernetes
+## Google Grown
+]
+.right-column[
+Based on ideas proven at Google over 10 years
+
+*Everything* at Google runs in a container.
+
+Google launches 2 billion containers per week.
+
+Part of a larger set of tools that make up the internal Google platform.
+]]
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/ship-wheel.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Kubernetes
+## Open Source
+]
+.right-column[
+https://github.com/kubernetes/kubernetes
+
+*Very* active open source project
+
+12k stars, 750+ contributors
+
+Apache 2 licensed
+
+Written in Go
+
+*In progress:* donate to the Cloud Native Computing Foundation
+]]
+
+.image-credit[
+{{image-credit}}
+]
+
+???
+
+stats with git shortlog -sn --no-merges | wc
+
+---
+class: column-slide
+background-image: url(img/ship-wheel.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057269 "Captain Jack Sparrow") shared by [Rick Galvan](https://flickr.com/people/leroy-freakwinter) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Kubernetes
+## Benefits
+]
+.right-column[
+Extend the container goodness across nodes.
+
+Enable operations specialization. Cluster Ops vs. App Ops
+
+Reduce cost to run many things in production.  Enables new ways of building applications.
+]]
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(img/core-memory.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
+
+.column-container[.left-column[
+# Core Concepts
+## Cluster
+]
+.right-column[.center[
+![](diagrams/cluster.svg)
+]]] 
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/core-memory.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
+
+.column-container[.left-column[
+# Core Concepts
+## Pod
+]
+.right-column[.center[
+![](diagrams/pod.svg)
+]]] 
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/core-memory.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
+
+.column-container[.left-column[
+# Core Concepts
+## Labels
+]
+.right-column[.center[
+![](diagrams/labels.svg)
+]]] 
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/core-memory.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
+
+.column-container[.left-column[
+# Core Concepts
+## Replication Controller
+]
+.right-column[.center[
+![](diagrams/rc.svg)
+]]] 
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(img/core-memory.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
+
+.column-container[.left-column[
+# Core Concepts
+## Replication Controller
+]
+.right-column[.center[
+![](diagrams/rc2.svg)
+]]] 
+
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(img/core-memory.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
+
+.column-container[.left-column[
+# Core Concepts
+## Service
+]
+.right-column[.center[
+![](diagrams/service.svg)
+]]] 
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/core-memory.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 "Magnetic-core Memory") shared by [dvanzuijlekom](https://flickr.com/people/dvanzuijlekom) under a [Creative Commons ( BY-SA ) license](https://creativecommons.org/licenses/by-sa/2.0/)
+
+.column-container[.left-column[
+# Core Concepts
+## Persistent Volumes
+]
+.right-column[.center[
+![](diagrams/pvs.svg)
+]]] 
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/space-needle.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/seattlemunicipalarchives/6175308389 "Space Needle under construction, 1961") shared by [Seattle Municipal Archives](https://flickr.com/people/seattlemunicipalarchives) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Design Principles
+]
+.right-column[
+* declarative > imperative
+* control loops
+* simple > complex
+* modularity
+* legacy compatible
+* network-centric
+* labels > hierarchy
+* cattle > pets
+* open > closed
+]] 
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(img/road.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# What's Next?
+## Kubernetes 1.2
+]
+.right-column[
+Shipping any day now
+
+* *Ingress:* L7 load balancing
+* *Deployments:* Declarative version updates
+* *Jobs:* Run to completion
+* *Autoscaling:* Automatically adjust replica count
+* *DaemonSets:* Run something on every node (or subset)
+* *PersistentVolume autoprovisioning*
+* *Network Plugins:* Uses [CNI config standard](https://github.com/appc/cni)
+
+Lots and lots more post v1.2
+]] 
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: middle, left
+# Thank you!
+
+.cblock[
+Joe Beda  
+[@jbeda](https://twitter.com/jbeda)  
+https://www.eightypercent.net
+]
+
+.image-credit[
+{{image-credit}}
+]
+    </textarea>
+    <script src="js/remark-custom.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '4:3'
+//        ratio: '16:9'
+      });
+
+      slideshow.on('showSlide', function(slide){
+        if (slide.properties.name == "bus-video") {
+          v = document.getElementById("busvid");
+          v.currentTime = 0;
+          v.play();
+        }
+      });
+      slideshow.on('hideSlide', function(slide){
+        if (slide.properties.name == "bus-video") {
+          v = document.getElementById("busvid");
+          v.pause();
+        }
+      });
+    </script>
+  </body>
+</html>

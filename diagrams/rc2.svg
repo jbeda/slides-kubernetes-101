@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.14 462.53">
+  <defs>
+    <style>
+      .a, .e, .i, .k, .l, .m, .n {
+        fill: none;
+      }
+
+      .a, .k, .l, .m {
+        stroke: #f2f2f2;
+      }
+
+      .a, .e, .k, .l, .m, .n {
+        stroke-miterlimit: 10;
+      }
+
+      .a, .e, .k, .l, .m {
+        stroke-width: 1.42px;
+      }
+
+      .b, .f, .i {
+        font-size: 22.68px;
+      }
+
+      .b, .c, .d {
+        fill: #f2f2f2;
+      }
+
+      .b, .d, .f, .h, .i {
+        font-family: Coda;
+      }
+
+      .d, .h {
+        font-size: 14.17px;
+      }
+
+      .e {
+        stroke: #b3b3b3;
+      }
+
+      .f, .g, .h {
+        fill: #b3b3b3;
+      }
+
+      .j {
+        fill: red;
+      }
+
+      .k {
+        stroke-dasharray: 2.77 2.77;
+      }
+
+      .l {
+        stroke-dasharray: 2.83 2.83;
+      }
+
+      .m {
+        stroke-dasharray: 2.68 2.68;
+      }
+
+      .n {
+        stroke: red;
+        stroke-width: 8.5px;
+      }
+    </style>
+  </defs>
+  <title>rc2</title>
+  <g>
+    <g>
+      <rect class="a" x="385.44" y="0.71" width="297.97" height="212.37"/>
+      <text class="b" transform="translate(514.54 32.43)">P<tspan x="13.73" y="0">od</tspan></text>
+      <g>
+        <g>
+          <g>
+            <g>
+              <text class="b" transform="translate(526.92 74.33)">C</text>
+              <text class="b" transform="translate(541.57 81.88) scale(0.58)">3</text>
+            </g>
+            <rect class="a" x="520.64" y="50" width="34.46" height="34.46"/>
+          </g>
+          <g>
+            <g>
+              <text class="b" transform="translate(473.66 74.33)">C</text>
+              <text class="b" transform="translate(488.31 81.88) scale(0.58)">2</text>
+            </g>
+            <rect class="a" x="467.29" y="50" width="34.46" height="34.46"/>
+          </g>
+          <g>
+            <g>
+              <text class="b" transform="translate(421.95 74.33)">C</text>
+              <text class="b" transform="translate(436.6 81.88) scale(0.58)">1</text>
+            </g>
+            <rect class="a" x="413.93" y="50" width="34.46" height="34.46"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <ellipse class="a" cx="448.96" cy="148.14" rx="25" ry="11.82"/>
+              <path class="a" d="M712.18,292.11c0,6.53-11.19,11.82-25,11.82s-25-5.29-25-11.82" transform="translate(-238.22 -103.12)"/>
+              <line class="a" x1="423.96" y1="189" x2="423.96" y2="148.14"/>
+              <line class="a" x1="473.96" y1="189" x2="473.96" y2="148.14"/>
+            </g>
+            <g>
+              <text class="b" transform="translate(440.63 184.94)">V</text>
+              <text class="b" transform="translate(454.22 192.49) scale(0.58)">1</text>
+            </g>
+          </g>
+          <g>
+            <g>
+              <text class="b" transform="translate(509.75 184.94)">V</text>
+              <text class="b" transform="translate(523.34 192.49) scale(0.58)">2</text>
+            </g>
+            <g>
+              <ellipse class="a" cx="520.08" cy="148.14" rx="25" ry="11.82"/>
+              <path class="a" d="M783.31,292.11c0,6.53-11.19,11.82-25,11.82s-25-5.29-25-11.82" transform="translate(-238.22 -103.12)"/>
+              <line class="a" x1="495.08" y1="189" x2="495.08" y2="148.14"/>
+              <line class="a" x1="545.08" y1="189" x2="545.08" y2="148.14"/>
+            </g>
+          </g>
+        </g>
+        <g>
+          <line class="a" x1="431.16" y1="84.46" x2="437.55" y2="124.9"/>
+          <path class="c" d="M675.38,225.5l4.56-3.86,0.14,0.15-2,8.74-0.53,8.9-3.25-8.3-4.57-7.71,0.06-.19Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <line class="a" x1="484.52" y1="84.46" x2="466.9" y2="127.51"/>
+          <path class="c" d="M706.09,228.28l5.9-.94,0,0.21L705.82,234l-5.07,7.33,1.52-8.78,0.09-9,0.15-.13Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <line class="a" x1="484.52" y1="84.46" x2="503.16" y2="127.25"/>
+          <path class="c" d="M740.37,228l3.44-4.89,0.18,0.11,0.29,9L746,241l-5.23-7.21-6.36-6.31v-0.19Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <line class="a" x1="537.87" y1="84.46" x2="532.49" y2="126.04"/>
+          <path class="c" d="M771,226.63l5.46-2.42,0.09,0.19-4.35,7.83-3,8.39-0.78-8.88-2.21-8.68,0.11-.16Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <text class="d" transform="translate(580.08 127.04)">v<tspan x="6.93" y="0">ersion = 1.0</tspan></text>
+          <path class="a" d="M903.23,238.4h-91V214.45h91c0.68,0.41,11,12,11,12S904,237.93,903.23,238.4Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <text class="d" transform="translate(580.08 158.48)">type = FE</text>
+          <path class="a" d="M903.23,269.84h-91V245.89h91c0.68,0.41,11,12,11,12S904,269.37,903.23,269.84Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <text class="d" transform="translate(580.08 189.92)">app = hello</text>
+          <path class="a" d="M903.23,301.28h-91V277.33h91c0.68,0.41,11,12,11,12S904,300.81,903.23,301.28Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <rect class="e" x="385.46" y="249.45" width="297.97" height="212.37"/>
+      <text class="f" transform="translate(514.56 281.17)">P<tspan x="13.73" y="0">od</tspan></text>
+      <g>
+        <g>
+          <g>
+            <g>
+              <text class="f" transform="translate(526.94 323.06)">C</text>
+              <text class="f" transform="translate(541.59 330.61) scale(0.58)">3</text>
+            </g>
+            <rect class="e" x="520.66" y="298.74" width="34.46" height="34.46"/>
+          </g>
+          <g>
+            <g>
+              <text class="f" transform="translate(473.67 323.06)">C</text>
+              <text class="f" transform="translate(488.32 330.61) scale(0.58)">2</text>
+            </g>
+            <rect class="e" x="467.3" y="298.74" width="34.46" height="34.46"/>
+          </g>
+          <g>
+            <g>
+              <text class="f" transform="translate(421.97 323.06)">C</text>
+              <text class="f" transform="translate(436.62 330.61) scale(0.58)">1</text>
+            </g>
+            <rect class="e" x="413.95" y="298.74" width="34.46" height="34.46"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <ellipse class="e" cx="448.97" cy="396.87" rx="25" ry="11.82"/>
+              <path class="e" d="M712.19,540.85c0,6.53-11.19,11.82-25,11.82s-25-5.29-25-11.82" transform="translate(-238.22 -103.12)"/>
+              <line class="e" x1="423.97" y1="437.73" x2="423.97" y2="396.87"/>
+              <line class="e" x1="473.97" y1="437.73" x2="473.97" y2="396.87"/>
+            </g>
+            <g>
+              <text class="f" transform="translate(440.65 433.68)">V</text>
+              <text class="f" transform="translate(454.23 441.23) scale(0.58)">1</text>
+            </g>
+          </g>
+          <g>
+            <g>
+              <text class="f" transform="translate(509.77 433.68)">V</text>
+              <text class="f" transform="translate(523.35 441.23) scale(0.58)">2</text>
+            </g>
+            <g>
+              <ellipse class="e" cx="520.1" cy="396.87" rx="25" ry="11.82"/>
+              <path class="e" d="M783.32,540.85c0,6.53-11.19,11.82-25,11.82s-25-5.29-25-11.82" transform="translate(-238.22 -103.12)"/>
+              <line class="e" x1="495.1" y1="437.73" x2="495.1" y2="396.87"/>
+              <line class="e" x1="545.1" y1="437.73" x2="545.1" y2="396.87"/>
+            </g>
+          </g>
+        </g>
+        <g>
+          <line class="e" x1="431.18" y1="333.2" x2="437.56" y2="373.64"/>
+          <path class="g" d="M675.39,474.24l4.56-3.86,0.14,0.15-2,8.74-0.53,8.9-3.25-8.3-4.57-7.71,0.06-.19Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <line class="e" x1="484.53" y1="333.2" x2="466.92" y2="376.25"/>
+          <path class="g" d="M706.11,477l5.9-.94,0,0.21-6.21,6.45-5.07,7.33,1.52-8.78,0.09-9,0.15-.13Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <line class="e" x1="484.53" y1="333.2" x2="503.18" y2="375.99"/>
+          <path class="g" d="M740.39,476.77l3.44-4.89L744,472l0.29,9L746,489.7l-5.23-7.21-6.36-6.31V476Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <line class="e" x1="537.89" y1="333.2" x2="532.51" y2="374.78"/>
+          <path class="g" d="M771.06,475.37l5.46-2.42,0.09,0.19L772.26,481l-3,8.39-0.78-8.88-2.21-8.68,0.11-.16Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <text class="h" transform="translate(580.09 375.78)">v<tspan x="6.93" y="0">ersion = 1.0</tspan></text>
+          <path class="e" d="M903.25,487.13h-91V463.19h91c0.68,0.41,11,12,11,12S904,486.67,903.25,487.13Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <text class="h" transform="translate(580.09 407.22)">type = FE</text>
+          <path class="e" d="M903.25,518.57h-91V494.63h91c0.68,0.41,11,12,11,12S904,518.11,903.25,518.57Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+        <g>
+          <text class="h" transform="translate(580.09 438.66)">app = hello</text>
+          <path class="e" d="M903.25,550h-91V526.07h91c0.68,0.41,11,12,11,12S904,549.55,903.25,550Z" transform="translate(-238.22 -103.12)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="a" x="0.71" y="85.56" width="291.4" height="291.4"/>
+    <text class="b" transform="translate(34.16 121.14)">ReplicationCont<tspan x="163.71" y="0">r</tspan><tspan x="171.45" y="0">oller</tspan></text>
+    <g>
+      <text class="b" transform="translate(34.16 167.66)">Replicas: 1<tspan x="0" y="27.21">Selector: type=FE</tspan></text>
+      <text class="i" transform="translate(34.16 167.66)">Replicas: <tspan class="j" x="97.98" y="0">1</tspan><tspan x="0" y="27.21">Selector: type=FE</tspan></text>
+    </g>
+    <g>
+      <text class="d" transform="translate(184.19 340.68)">P<tspan x="8.58" y="0">od Tmpl</tspan></text>
+      <g>
+        <path class="a" d="M499.18,455H403.94V334.38h60.9l34.34,33.36S499.18,417.59,499.18,455Z" transform="translate(-238.22 -103.12)"/>
+        <polyline class="a" points="260.96 265.12 226.03 265.12 226.03 231.26"/>
+      </g>
+    </g>
+    <g>
+      <path class="c" d="M317.37,444a38.24,38.24,0,0,1-18-73.95l5.34,15.28a22,22,0,1,0,28.08,13.53,20.32,20.32,0,0,0-7.43-9.84l9.52-13.09a36.71,36.71,0,0,1,13.19,17.59,38.23,38.23,0,0,1-23.47,48.71A38.65,38.65,0,0,1,317.37,444Z" transform="translate(-238.22 -103.12)"/>
+      <polygon class="c" points="88.51 297.81 71.36 270.47 103.62 269.28 88.51 297.81"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <line class="a" x1="292.11" y1="231.26" x2="293.53" y2="231.26"/>
+      <line class="k" x1="296.3" y1="231.26" x2="322.64" y2="231.26"/>
+      <line class="a" x1="324.03" y1="231.26" x2="325.44" y2="231.26"/>
+    </g>
+    <g>
+      <line class="a" x1="325.44" y1="106.9" x2="325.44" y2="108.31"/>
+      <line class="l" x1="325.44" y1="111.14" x2="325.44" y2="352.8"/>
+      <line class="a" x1="325.44" y1="354.22" x2="325.44" y2="355.63"/>
+    </g>
+    <g>
+      <line class="a" x1="325.44" y1="355.63" x2="326.86" y2="355.63"/>
+      <line class="m" x1="329.54" y1="355.63" x2="371.13" y2="355.63"/>
+      <line class="a" x1="372.47" y1="355.63" x2="373.89" y2="355.63"/>
+      <path class="c" d="M609.57,458.75l-3.11-5.11,0.17-.12,8.33,3.31,8.7,1.91-8.7,1.91L606.63,464l-0.17-.09Z" transform="translate(-238.22 -103.12)"/>
+    </g>
+    <g>
+      <line class="a" x1="325.44" y1="106.9" x2="326.86" y2="106.9"/>
+      <line class="m" x1="329.54" y1="106.9" x2="371.13" y2="106.9"/>
+      <line class="a" x1="372.47" y1="106.9" x2="373.89" y2="106.9"/>
+      <path class="c" d="M609.57,210l-3.11-5.11,0.17-.12L615,208.1l8.7,1.91-8.7,1.91-8.33,3.31-0.17-.09Z" transform="translate(-238.22 -103.12)"/>
+    </g>
+  </g>
+  <g>
+    <path class="n" d="M642.08,367.49L903.25,550Z" transform="translate(-238.22 -103.12)"/>
+    <path class="n" d="M903.25,367.49L642.08,550Z" transform="translate(-238.22 -103.12)"/>
+  </g>
+</svg>
