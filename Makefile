@@ -11,4 +11,4 @@ copy:
 	gsutil -m cp -r . gs://$(GS_BUCKET)/$(NAME)
 
 release-zip:
-	make-release-zip.sh
+	./make-release-zip.sh
