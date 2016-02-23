@@ -2,6 +2,8 @@
 
 This is a slide deck for giving a introduction presentation for [Kubernetes](http://kubernetes.io).  It is released with the hope that others will use and adapt it to spread the good word.
 
+The latest version of this slide deck is hosted at [http://slides.eightypercent.net/kubernetes-101/kubernetes-101.html#1](http://slides.eightypercent.net/kubernetes-101/kubernetes-101.html#1).
+
 This presentation should take 30-45 minutes to work through depending on how much elaboration you take when presenting the material.
 
 I'm happy to take pull requests with changes to the content but reserve the right to reject them if they include details or takes on things that don't reflect my own opinions.  However, feel free to fork and modify as appropriate.  I'll always take PRs that add to this README to pointers to derived versions.
