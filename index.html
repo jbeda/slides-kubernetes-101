@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
     <style>
-      body { 
-        font-family: 'Lora'; 
+      body {
+        font-family: 'Lora';
       }
       h1, h2, h3 {
         font-family: 'Coda';
@@ -61,8 +61,8 @@
         background: transparent;
         z-index: 2;
       }
-      .remark-slide-content a, 
-      .remark-slide-content a:hover, 
+      .remark-slide-content a,
+      .remark-slide-content a:hover,
       .remark-slide-content a:visited {
         color: inherit;
       }
@@ -72,7 +72,7 @@
         opacity: 1.0;
         bottom: 0;
         right: 0;
-        font-size: 10px;        
+        font-size: 10px;
         color: #777;
         font-family: 'Lora';
         padding: 3px 10px 3px 10px;
@@ -162,7 +162,7 @@ class: middle, center
 # Kubernetes 101
 
 .cblock[
-Joe Beda  
+Joe Beda
 Entrepreneur in Residence, Accel Partners
 ]
 
@@ -345,7 +345,7 @@ image-credit: [flickr photo](https://flickr.com/photos/leroy-freakwinter/3108057
 
 Kubernetes is ancient Greek for "Helmsman".  Root of the word "Governor", "Cybernetics".
 
-Kubernetes is a "Container Orchestrator" or "Cluster Manager".  
+Kubernetes is a "Container Orchestrator" or "Cluster Manager".
 
 * Places containers on nodes
 * Recovers automatically from failure
@@ -446,7 +446,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/cluster.svg">
 </object>
-]]] 
+]]]
 
 .image-credit[
 {{image-credit}}
@@ -463,7 +463,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/pod.svg">
 </object>
-]]] 
+]]]
 
 .image-credit[
 {{image-credit}}
@@ -480,7 +480,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/labels.svg">
 </object>
-]]] 
+]]]
 
 .image-credit[
 {{image-credit}}
@@ -497,7 +497,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/rc.svg">
 </object>
-]]] 
+]]]
 
 .image-credit[
 {{image-credit}}
@@ -515,7 +515,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/rc2.svg">
 </object>
-]]] 
+]]]
 
 .image-credit[
 {{image-credit}}
@@ -533,7 +533,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/service.svg">
 </object>
-]]] 
+]]]
 
 .image-credit[
 {{image-credit}}
@@ -550,7 +550,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/pvs.svg">
 </object>
-]]] 
+]]]
 
 .image-credit[
 {{image-credit}}
@@ -573,7 +573,7 @@ image-credit: [flickr photo](https://flickr.com/photos/seattlemunicipalarchives/
 * labels > hierarchy
 * cattle > pets
 * open > closed
-]] 
+]]
 
 .image-credit[
 {{image-credit}}
@@ -588,18 +588,45 @@ image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We'r
 ## Kubernetes 1.2
 ]
 .right-column[
-Shipping any day now
+Shipped March 17
 
-* *Ingress:* L7 load balancing
-* *Deployments:* Declarative version updates
-* *Jobs:* Run to completion
-* *Autoscaling:* Automatically adjust replica count
-* *DaemonSets:* Run something on every node (or subset)
-* *PersistentVolume autoprovisioning*
-* *Network Plugins:* Uses [CNI config standard](https://github.com/appc/cni)
+* **Ingress:** L7 load balancing
+* **Deployments:** Declarative version updates
+* **Jobs:** Run to completion
+* **Autoscaling:** Automatically adjust replica count
+* **DaemonSets:** Run something on every node (or subset)
+* **PersistentVolume autoprovisioning**
+* **Network Plugins:** Uses [CNI config standard](https://github.com/appc/cni)
+]]
 
-Lots and lots more post v1.2
-]] 
+.image-credit[
+{{image-credit}}
+]
+
+---
+class: column-slide
+background-image: url(photos/road.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# What's Next?
+## Kubernetes 1.3
+]
+.right-column[
+Shipping June 24
+
+* **Ubernetes:** Multi-zone and multi-region Kubernetes
+* **PetSet:** Support for long term stateful distributed systems
+* **Rktnetes:** Support for rkt runtime
+* **OpenID Connect Authentication**
+* **Automatic Cluster Scaling:** K8s publishes signals that allow external services to scale the cluster automatically. Already implemented on GKE and GCE.
+
+
+* **Scaling:** Continued work to ease bottlenecks. Example: protobuf for lower communication overhead
+* **Distributed Testing:** Federated dashboard for current status across many environments
+* **etcd v3:** Experimental support for etcd v3 API and backend.
+
+]]
 
 .image-credit[
 {{image-credit}}
@@ -609,13 +636,13 @@ class: middle, left
 # Thank you!
 
 .cblock[
-Joe Beda  
-[@jbeda](https://twitter.com/jbeda)  
-https://www.eightypercent.net
+Joe Beda<br>
+[@jbeda](https://twitter.com/jbeda)<br>
+https://www.eightypercent.net<br>
 ]
 
 .ccblock[
-[![Creative Commons License](img/cc-by.png)](http://creativecommons.org/licenses/by/4.0/)  
+[![Creative Commons License](img/cc-by.png)](http://creativecommons.org/licenses/by/4.0/)<br>
 [Kubernetes 101](https://github.com/jbeda/k8s-slides) by Joe Beda is licensed under a [Creative Commons Attribution 4.0 International License](href="http://creativecommons.org/licenses/by/4.0/).
 ]
 
@@ -627,8 +654,8 @@ https://www.eightypercent.net
     </script>
     <script>
       var slideshow = remark.create({
-        ratio: '4:3'
-//        ratio: '16:9'
+//        ratio: '4:3'
+        ratio: '16:9'
       });
 
       slideshow.on('showSlide', function(slide){

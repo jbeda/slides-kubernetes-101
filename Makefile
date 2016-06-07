@@ -19,3 +19,8 @@ set-nocache:
 
 release-zip:
 	./make-release-zip.sh
+
+local-webserver:
+	@echo "Launching web server at http://localhost:8000"
+	@echo "Hit Ctrl-C to exit"
+	python -m SimpleHTTPServer 8000

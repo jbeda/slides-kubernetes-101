@@ -2,7 +2,7 @@
 
 This is a slide deck for giving a introduction presentation for [Kubernetes](http://kubernetes.io).  It is released with the hope that others will use and adapt it to spread the good word.
 
-The latest version of this slide deck is hosted at [http://slides.eightypercent.net/kubernetes-101/kubernetes-101.html#1](http://slides.eightypercent.net/kubernetes-101/kubernetes-101.html#1).
+The latest version of this slide deck is hosted at [http://slides.eightypercent.net/kubernetes-101/kubernetes-101.html#1](http://slides.eightypercent.net/kubernetes-101/#1).
 
 This presentation should take 30-45 minutes to work through depending on how much elaboration you take when presenting the material.
 
