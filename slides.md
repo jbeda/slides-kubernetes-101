@@ -244,13 +244,13 @@ https://github.com/kubernetes/kubernetes
 
 *Very* active open source project
 
-12k stars, 750+ contributors
+15k stars, 750+ contributors
 
 Apache 2 licensed
 
 Written in Go
 
-*In progress:* donate to the Cloud Native Computing Foundation
+Owned by the Cloud Native Computing Foundation
 ]]
 
 .image-credit[
@@ -479,11 +479,11 @@ Shipping June 24
   * Already implemented on GKE and GCE.
 
 
-  * **Ubernetes Plumbing**
-    * Multi-zone and multi-region Kubernetes. Not there quite yet.
+* **Ubernetes Plumbing**
+  * Multi-zone and multi-region Kubernetes. Not there quite yet.
 * **Scaling**
   * Continued work to ease bottlenecks.
-  * Up to 2000 nodes with API latency &lt;1s and scheduling latency &lt;5s)
+  * Up to 2000 nodes with API latency &lt;1s and scheduling latency &lt;5s
   * Example: protobuf for lower communication overhead
 * **Distributed Testing**
   * Federated dashboard for current status across many environments
