@@ -7,11 +7,12 @@ image-credit: Photo "k8s Sticker" shared by Joe Beda under a [Creative Commons (
 ---
 class: middle, center
 
-# Kubernetes 101
+# Mumbai's First Kubernetes Meetup
 
 .cblock[
-Joe Beda<br>
-Entrepreneur in Residence, Accel Partners
+Augustine Correa<br>
+Organizer - Mumbai Technology Meetup<br> 
+Twitter: @hackmum
 ]
 
 .image-credit[
@@ -427,36 +428,48 @@ image-credit: [flickr photo](https://flickr.com/photos/seattlemunicipalarchives/
 {{image-credit}}
 ]
 ---
+
 class: column-slide
 background-image: url(photos/road.jpg)
 image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
-# What's Next?
-## Kubernetes 1.2
+# What's New?
+## Kubernetes 1.4
 ]
 .right-column[
-Shipped March 17
+Shipped Sept 26
 
-* **Ingress**
-  * L7 load balancing
-* **Deployments**
-  * Declarative version updates
-* **Jobs**
-  * Run to completion
-* **Autoscaling**
-  * Automatically adjust replica count
-* **DaemonSets**
-  * Run something on every node (or subset)
-* **PersistentVolume autoprovisioning**
-* **Network Plugins**
-  * Uses [CNI config standard](https://github.com/appc/cni)
+* **Cluster creation simplified**
+  * kubeadm
+  * Package Streamlining
+  * Add-on Deployments
+  * Certificates API
+* **Expanded Stateful Application Support**
+  * ScheduledJob
+  * Init-containers
+  * Dynamic PVC provisioning
+  * Helm Charts    
+* **Cluster Federation API additions**
+  * Federated Replica Sets
+  * Federated Services
+  * Federated Ingress  
+* **Container Security support**
+  * Pod Security Policy
+  * App Armor
+* **Infrastructure enhancements**
+  * Scheduler
+  * Disruptions SLO
+  * Storage
+  * Clients 
+* **Kubernetes Dashboard API**
+  
+
 ]]
 
 .image-credit[
 {{image-credit}}
 ]
-
 ---
 class: column-slide
 background-image: url(photos/road.jpg)
@@ -464,45 +477,31 @@ image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We'r
 
 .column-container[.left-column[
 # What's Next?
-## Kubernetes 1.3
+## Kubernetes 1.5
 ]
 .right-column[
-Shipping June 24
+ETA Nov 17
 
-* **PetSet**
-  * Support for long term stateful distributed systems
-* **Rktnetes**
-  * Support for rkt runtime
-* **OpenID Connect Authentication**
-* **Automatic Cluster Scaling**
-  * K8s publishes signals that allow external services to scale the cluster automatically.
-  * Already implemented on GKE and GCE.
-
-
-* **Ubernetes Plumbing**
-  * Multi-zone and multi-region Kubernetes. Not there quite yet.
-* **Scaling**
-  * Continued work to ease bottlenecks.
-  * Up to 2000 nodes with API latency &lt;1s and scheduling latency &lt;5s
-  * Example: protobuf for lower communication overhead
-* **Distributed Testing**
-  * Federated dashboard for current status across many environments
-* **etcd v3**
-  * Experimental support for etcd v3 API and backend.
-
+* **Forgiveness/Taints & Toleration**
+* **Performance and Scale Improvements**
+* **etcd v3 API storage backend**
+* **Autoscaling**
+* **Private Federated Services**
+* **....and much more :-)**
 ]]
 
 .image-credit[
 {{image-credit}}
 ]
+
 ---
 class: middle, left
 # Thank you!
 
 .cblock[
-Joe Beda<br>
-[@jbeda](https://twitter.com/jbeda)<br>
-https://www.eightypercent.net<br>
+Augustine Correa<br>
+[@hackmum](https://twitter.com/hackmum)<br>
+https://fb.com/hackmum<br>
 ]
 
 .ccblock[
