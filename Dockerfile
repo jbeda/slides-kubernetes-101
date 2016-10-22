@@ -1,4 +1,5 @@
 FROM alpine
+MAINTAINER Augustine Correa augustine.correa@hackmum.in
 
 COPY . /src
 
