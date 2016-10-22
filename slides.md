@@ -10,9 +10,9 @@ class: middle, center
 # Mumbai's First Kubernetes Meetup
 
 .cblock[
-Augustine Correa<br>
-Organizer - Mumbai Technology Meetup<br> 
-Twitter: @hackmum
+<Speaker Name><br>
+<Title Organization><br> 
+<Speaker coordinates>
 ]
 
 .image-credit[
@@ -499,9 +499,9 @@ class: middle, left
 # Thank you!
 
 .cblock[
-Augustine Correa<br>
-[@hackmum](https://twitter.com/hackmum)<br>
-https://fb.com/hackmum<br>
+<SPEAKER NAME><br>
+[<@SM handle>](<SM URL>)<br>
+
 ]
 
 .ccblock[
