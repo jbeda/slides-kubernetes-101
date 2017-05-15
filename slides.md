@@ -11,7 +11,7 @@ class: middle, center
 
 .cblock[
 Joe Beda<br>
-Entrepreneur in Residence, Accel Partners
+CTO, Heptio
 ]
 
 .image-credit[
@@ -244,7 +244,7 @@ https://github.com/kubernetes/kubernetes
 
 *Very* active open source project
 
-15k stars, 750+ contributors
+23k stars, 1400+ contributors
 
 Apache 2 licensed
 
@@ -282,6 +282,29 @@ Reduce cost to run many things in production.  Enables new ways of building appl
 {{image-credit}}
 ]
 
+---
+class: column-slide
+background-image: url(photos/space-needle.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/seattlemunicipalarchives/6175308389 "Space Needle under construction, 1961") shared by [Seattle Municipal Archives](https://flickr.com/people/seattlemunicipalarchives) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Design Principles
+]
+.right-column[
+* declarative > imperative
+* control loops
+* simple > complex
+* modularity
+* legacy compatible
+* network-centric
+* labels > hierarchy
+* cattle > pets
+* open > closed
+]]
+
+.image-credit[
+{{image-credit}}
+]
 ---
 class: column-slide
 background-image: url(photos/core-memory.jpg)
@@ -403,41 +426,18 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 .image-credit[
 {{image-credit}}
 ]
----
-class: column-slide
-background-image: url(photos/space-needle.jpg)
-image-credit: [flickr photo](https://flickr.com/photos/seattlemunicipalarchives/6175308389 "Space Needle under construction, 1961") shared by [Seattle Municipal Archives](https://flickr.com/people/seattlemunicipalarchives) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
-.column-container[.left-column[
-# Design Principles
-]
-.right-column[
-* declarative > imperative
-* control loops
-* simple > complex
-* modularity
-* legacy compatible
-* network-centric
-* labels > hierarchy
-* cattle > pets
-* open > closed
-]]
-
-.image-credit[
-{{image-credit}}
-]
 ---
 class: column-slide
 background-image: url(photos/road.jpg)
 image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
-# What's Next?
-## Kubernetes 1.2
+# So much more!
 ]
 .right-column[
-Shipped March 17
-
+* **Namespaces**
+  * Isolated workspaces for users/projects
 * **Ingress**
   * L7 load balancing
 * **Deployments**
@@ -448,9 +448,6 @@ Shipped March 17
   * Automatically adjust replica count
 * **DaemonSets**
   * Run something on every node (or subset)
-* **PersistentVolume autoprovisioning**
-* **Network Plugins**
-  * Uses [CNI config standard](https://github.com/appc/cni)
 ]]
 
 .image-credit[
@@ -463,33 +460,48 @@ background-image: url(photos/road.jpg)
 image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
 
 .column-container[.left-column[
-# What's Next?
-## Kubernetes 1.3
+# So much more!
 ]
 .right-column[
-Shipping June 24
-
+* **Role Based Access Control (RBAC)**
+  * Control what users have access to what objects
+* **Multiple Schedulers**
+* **Flexible Scheduling Constraints**
+  * Affinity, anti-affinity, taints, tolerations
 * **PetSet**
   * Support for long term stateful distributed systems
-* **Rktnetes**
-  * Support for rkt runtime
-* **OpenID Connect Authentication**
 * **Automatic Cluster Scaling**
   * K8s publishes signals that allow external services to scale the cluster automatically.
+* **Cloud Provider Integration**
+  * GCP, AWS, Azure, OpenStack, vSphere
+* **Network Policy**
+  * Network ingress policy
+]]
+
+.image-credit[
+{{image-credit}}
+]
+---
+class: column-slide
+background-image: url(photos/road.jpg)
+image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We're on the Road to Nowhere") shared by [mdalmuld](https://flickr.com/people/mdalmuld) under a [Creative Commons ( BY ) license](https://creativecommons.org/licenses/by/2.0/)
+
+.column-container[.left-column[
+# Ecosystem
+]
+.right-column[
+* **Platforms**
+  * OpenStack, Deis Workflow
+* **Operators**
+  * Automatic management of systems via API
+  * Integrates using k8s extensions
+  * etcd, Prometheus, elasticsearch, memcahced, mongodb, rook, etc.
+* **Authentication Providers**
+  * Extended via webhook.  OpenID Connect, OAuth 2, LDAP, SAML, etc.
   * Already implemented on GKE and GCE.
-
-
-* **Ubernetes Plumbing**
-  * Multi-zone and multi-region Kubernetes. Not there quite yet.
-* **Scaling**
-  * Continued work to ease bottlenecks.
-  * Up to 2000 nodes with API latency &lt;1s and scheduling latency &lt;5s
-  * Example: protobuf for lower communication overhead
-* **Distributed Testing**
-  * Federated dashboard for current status across many environments
-* **etcd v3**
-  * Experimental support for etcd v3 API and backend.
-
+* **Helm: Package Manager**
+  * Super easy to install applications and systems.
+* **Extended Network Policy**
 ]]
 
 .image-credit[
@@ -502,7 +514,7 @@ class: middle, left
 .cblock[
 Joe Beda<br>
 [@jbeda](https://twitter.com/jbeda)<br>
-https://www.eightypercent.net<br>
+https://www.heptio.com<br>
 ]
 
 .ccblock[
