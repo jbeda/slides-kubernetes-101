@@ -363,7 +363,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 
 .column-container[.left-column[
 # Core Concepts
-## Replication Controller
+## ReplicaSet
 ]
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/rc.svg">
@@ -381,7 +381,7 @@ image-credit: [flickr photo](https://flickr.com/photos/dvanzuijlekom/6952363784 
 
 .column-container[.left-column[
 # Core Concepts
-## Replication Controller
+## ReplicaSet
 ]
 .right-column[.center[
 <object type="image/svg+xml" data="diagrams/rc2.svg">
@@ -468,7 +468,7 @@ image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We'r
 * **Multiple Schedulers**
 * **Flexible Scheduling Constraints**
   * Affinity, anti-affinity, taints, tolerations
-* **PetSet**
+* **StatefulSet**
   * Support for long term stateful distributed systems
 * **Automatic Cluster Scaling**
   * K8s publishes signals that allow external services to scale the cluster automatically.
