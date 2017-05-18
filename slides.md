@@ -250,7 +250,7 @@ Apache 2 licensed
 
 Written in Go
 
-Owned by the Cloud Native Computing Foundation
+Hosted by the Cloud Native Computing Foundation (CNCF)
 ]]
 
 .image-credit[
