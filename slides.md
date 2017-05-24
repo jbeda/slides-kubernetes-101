@@ -495,7 +495,7 @@ image-credit: [flickr photo](https://flickr.com/photos/mdalmuld/9559878695 "We'r
 * **Operators**
   * Automatic management of systems via API
   * Integrates using k8s extensions
-  * etcd, Prometheus, elasticsearch, memcahced, mongodb, rook, etc.
+  * etcd, Prometheus, elasticsearch, memcached, mongodb, rook, etc.
 * **Authentication Providers**
   * Extended via webhook.  OpenID Connect, OAuth 2, LDAP, SAML, etc.
   * Already implemented on GKE and GCE.
